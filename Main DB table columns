@@ -1,0 +1,95 @@
+Detailed Table information
+1) Products
+ProductId
+Name
+Description
+SmallDescription
+Price
+ShippingMethod
+ShippingCost
+Quantity(default to 5)
+createdby
+createdatetime
+updatedby
+updatedatetime
+
+2)Customers
+CustomerID
+Name
+Email
+Password - stored in hash5
+Active
+createdby
+createdatetime
+updatedby
+updatedatetime
+
+3) Customer details
+customerdetailid
+customerid
+customerfacebookid
+customerfacebookpassword
+Address1
+address2
+state
+country(default US)
+ZIp
+Active
+createdby
+createdatetime
+updatedby
+updatedatetime
+
+3) CustomerBillingInfo
+CustomerBillingInfoID
+Customerid
+address1
+address2
+state
+country
+Zip
+cardlastfourdigit
+ExpireDate
+ExpireTime
+ProfileID
+Active
+createdby
+createdatetime
+updatedby
+updatedatetime
+
+4) Shopping cart
+ShoppingCartID
+CustomerID(can be null  for new)
+ProductID
+Quantity
+Total
+ShippingMethod
+Shipping Cost
+FinalTotal
+ExpireDateTime
+Active
+createdby
+createdatetime
+updatedby
+updatedatetime
+
+
+
+
+
+
+
+
+
+
+lkup tables:
+ShippingMethod
+State
+Country
+category
+Subcategory
+Active( 1 = Active, 2 = Inactive, 3 - Processing, 4- Rejected, 5- blocked)
+
+
+
