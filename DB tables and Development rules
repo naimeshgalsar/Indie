@@ -33,7 +33,7 @@ Error Handling
 
 DB Side:
 1) Always prefic table with tbl and lookup table with lkup
-2) Always have in a table: identity column, createDate, createdby,updatedatetime,updatedby
+2) Always have in a table: identity column, createDate, createdby,updatedatetime,updatedby and active(1,2,3,4)
 3) Identity column for tblProduct should be productId
 4) Always use camelcase for naming
 5) Use Stored Procedure as much as you can
