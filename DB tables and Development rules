@@ -1,0 +1,40 @@
+Tables
+1) Products
+2) Products Images
+3) Images
+4) Product Category
+5) Customer 
+6) Customer Product
+7) Shopping Cart
+8) Artist
+9) Artist Images
+10) Artist Videos
+10) Product Artist
+11) Transaction 
+12) Artist Blog section
+13) Blog Responses
+
+
+Main points to be taken care while developement
+1) No JS or CSS code in HTML
+2) Use Header, Footer and mainContent section
+3) Footer will have Google Analytics
+4) Search in the website should be fast. Filter on 4 param: Prices(high, low) and Alphabetical Sort(a-z, z-a)
+5) Grids will always have sorting on column title select. Paging and No of items selected option is required.
+6) use a DBlayer for DB transaction
+7) Always write queries in a single file and use it everywhere
+8) for Update, delete and insert. Please use transaction control so that rollback happens.
+
+Error Handling
+1) Always have try and catch.
+2) Log errors in root folder at log.txt and log errors in decending order.. latest first
+3) 
+
+
+DB Side:
+1) Always prefic table with tbl and lookup table with lkup
+2) Always have in a table: identity column, createDate, createdby,updatedatetime,updatedby
+3) Identity column for tblProduct should be productId
+4) Always use camelcase for naming
+5) Use Stored Procedure as much as you can
+
