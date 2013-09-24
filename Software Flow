@@ -1,0 +1,13 @@
+There are 3 flows:
+1) From Customer perspective:
+  Customer comes in and selected either from category or any product listed on the page. They can buy the product, see description, see the artist blog page, his reviews and related products.
+   The customers can buy, go to shopping cart, pay for it, get confirmation, get confirmation in email.
+
+2) From Artist perspective: Artist will be given admin panel to put in his products for sale. Plus he will get a dedicated page for him which will be wordpress kind of page with blogs.
+   They will also have report page here where they will keep track of the new products bought, shipped products, completed transaction. They will also be able to mark the products if they're involved in shipping product or packagin.
+
+3) From SuperAdmin perspective:
+   SuperAdmin will come and see the reports of all products and contact artist in case of some problems or issues. They can cancel artist's membership
+   They will also maintain shipping, tracking and other information about the product
+
+ 
