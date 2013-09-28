@@ -44,5 +44,23 @@ Items purchased
 Items status page
 Artist report
 
+6) product flow
+First the product is inserted in cvs format. All the valid product lines are inserted in the Db. And we should give them a error grid which will have the file name and the lines which have the problems. Also, we will also allow them to put the same file name to be uploaded.
+
+7) artist blog
+Artist should be able to put his small description. Put in his one album which will allow them to put 10 images. Plus a video YouTube link can be put on the page. Then they will have the blog page in the bottom where user can come and have conversation with the artist. 
+Artist product list is also displayed so that it becomes hi profile page.
+
+8) artist sold product information
+A report page where filters will be there to search. Artist can see items purchased, items shipped, items delivered and items return.
+
+9) future Wordpress enhancement
+The artist can come and get their separate Wordpress website which will have the profile page, product list page, product details, product shopping cart, product order details. They can use either our merchant account or their own.
+
+
+10) or user can ask us to point his domain to his profile page.they will use our shopping cart but only list their products.
+
+
+
 
 
