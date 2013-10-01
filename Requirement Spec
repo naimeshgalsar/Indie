@@ -60,6 +60,7 @@ The artist can come and get their separate Wordpress website which will have the
 
 10) or user can ask us to point his domain to his profile page.they will use our shopping cart but only list their products.
 
+ 11) coupons should be each product based. At the time of creation of coupon, admin should be asked for coupon code, expiration date, total number of coupons and what products it should be applied. If the quantity is zero then no more coupons should be redeemed with that code. In this way we can have a single code given to an individual or group.Also, to a product as well group of products. If it applies to all products then assign all otherwise have comma separated value of the products. Mostlye it will be category or subcategory wise.
 
 
 
